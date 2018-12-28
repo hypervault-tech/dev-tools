@@ -29,3 +29,24 @@ For hypervault's purpose, run the following command
 
 This sets all the connections to the url `http://hypervault.tech` instead of `http://localhost`. The hostnames are not changed by this flag. 
 
+## Bringing down an existing Fabric network 
+
+First run 
+```
+  sudo ./teardownFabric.sh
+``` 
+
+then run 
+```bash
+  rm -rf ~/.composer
+  rm -rf ~/.composer-credentials
+  rm -rf ~/.composer-connectionProfiles
+```
+
+## Starting a brand new Fabric network 
+
+First creat a PeerAdmin card by following the above section. Then start fabric by 
+
+```
+  sudo ./startFabric.sh
+```
