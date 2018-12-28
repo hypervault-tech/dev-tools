@@ -50,3 +50,8 @@ First creat a PeerAdmin card by following the above section. Then start fabric b
 ```
 sudo ./startFabric.sh
 ```
+
+
+## If I am feeling lazy
+
+Just run the script `./restartHypervault.sh` to do all of the above. 
