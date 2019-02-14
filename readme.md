@@ -24,7 +24,7 @@ Example: ./createPeerAdminCard.sh
 For hypervault's purpose, run the following command
 
 ```
-./createPeerAdminCard.sh  --host hypervault.tech
+./createPeerAdminCard.sh  --host fabric-endpoint.hypervault.tech
 ```
 
 This sets all the connections to the url `http://hypervault.tech` instead of `http://localhost`. The hostnames are not changed by this flag. 
