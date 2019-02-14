@@ -1,5 +1,6 @@
 #!/bin/bash
-HOST = "fabric-endpoint.hypervault.tech"
+HOST="fabric-endpoint.hypervault.tech"
+
 
 # first stop and remove all docker containers 
 P1=$(docker ps -q)
