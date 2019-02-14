@@ -19,7 +19,7 @@ rm -rf ~/.composer
 rm -rf ~/.composer-credentials
 rm -rf ~/.composer-connectionProfiles
 
-echo "Creating a Peer Admin with connection profile pointing to HOST = $HOST"
+echo "Creating a Peer Admin with connection profile pointing to HOST ="
 ./createPeerAdminCard.sh  --host $HOST
 
 ./startFabric.sh
