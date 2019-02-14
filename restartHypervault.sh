@@ -1,4 +1,5 @@
 #!/bin/bash
+HOST = "fabric-endpoint.hypervault.tech"
 
 # first stop and remove all docker containers 
 P1=$(docker ps -q)
@@ -18,6 +19,7 @@ rm -rf ~/.composer
 rm -rf ~/.composer-credentials
 rm -rf ~/.composer-connectionProfiles
 
-./createPeerAdminCard.sh  --host fabric-endpoint.hypervault.tech
+echo "Creating a Peer Admin with connection profile pointing to HOST = $HOST"
+./createPeerAdminCard.sh  --host $HOST
 
 ./startFabric.sh
